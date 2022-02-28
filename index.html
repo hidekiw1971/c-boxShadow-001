@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
@@ -23,9 +24,20 @@
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script defer src="./js/script.js"></script>
 </head>
+
 <body>
-  <div class="inner">
-  <p class="test">変更のテスト</p>
-</div>
+
+
+  <div class="box-shadow">
+    <p>box-shadow width: 100%;の右側に影を付ける</p>
+    <p>width: 100%;の為、右側にmarginがつかないので、width: 98%;で対応。</p>
+    <p>幅が小さい間は問題ないが、広くなればなる程、相対的に右側の隙間も広くなる。</p>
+    <p>親要素・子要素共に横幅を100％しているとmargin-rightは描画位置が変わらないので、marginができない。（存在するけど見えない）</p>
+    <p>margin-leftは描画位置が変わるからmarginが見える。</p>
+    <p>margin-rightは描画位置が変わらないのでmarginが見えない。</p>
+    <p>marginは要素の外に逃げていく形になるので効かないようにみえているだけ。</p>
+  </div>
+
 </body>
+
 </html>
