@@ -1,8 +1,10 @@
-# module（共通部品）
+# box-shadow(width: 100%;に影を付ける)
 
-## ｘｘｘ
-
-- ｘｘｘ
+## 説明
+- 親要素・子要素共に横幅を100％しているとmargin-rightは描画位置が変わらないので、marginができない。（存在するけど見えない）
+- margin-leftは描画位置が変わるからmarginが見える。
+- margin-rightは描画位置が変わらないのでmarginが見えない。
+- marginは要素の外に逃げていく形になるので効かないようにみえているだけ。
 
 ## イメージ画像
 
@@ -17,15 +19,17 @@
 - 「copy start」から「copy end」をコピペ。
 - css: src -> module -> xxx をコピペ。
 
-## 特徴
-- xxx
-
 ## 参考にしたサイト
-- xxx
+- margin-rightが効かない！？margin-leftは効く、どういうことなのか【HTML/CSS】
+- https://daichan-blog.com/archives/3042
+- CSS - box-shadow
+- https://www.tohoho-web.com/css/prop/box-shadow.htm
+- これはダメ(そもそもwidth: 100%;にmargin-rightが付かないから)
+- https://www.nyamucoro.com/entry/2019/02/01/201231
 
 ## 更新履歴
 
-- 2022/mm/dd 初版 完了
+- 2022/2/28 初版 作成完了
 
 ## 環境・使い方
 
