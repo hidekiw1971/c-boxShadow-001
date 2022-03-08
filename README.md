@@ -1,10 +1,11 @@
 # box-shadow(width: 100%;に影を付ける)
 
 ## 説明
-- 親要素・子要素共に横幅を100％しているとmargin-rightは描画位置が変わらないので、marginができない。（存在するけど見えない）
-- margin-leftは描画位置が変わるからmarginが見える。
-- margin-rightは描画位置が変わらないのでmarginが見えない。
-- marginは要素の外に逃げていく形になるので効かないようにみえているだけ。
+
+- 親要素・子要素共に横幅を 100％していると margin-right は描画位置が変わらないので、margin ができない。（存在するけど見えない）
+- margin-left は描画位置が変わるから margin が見える。
+- margin-right は描画位置が変わらないので margin が見えない。
+- margin は要素の外に逃げていく形になるので効かないようにみえているだけ。
 
 ## イメージ画像
 
@@ -22,15 +23,17 @@
 - css: src -> module -> xxx をコピペ。
 
 ## 参考にしたサイト
-- margin-rightが効かない！？margin-leftは効く、どういうことなのか【HTML/CSS】
+
+- margin-right が効かない！？margin-left は効く、どういうことなのか【HTML/CSS】
 - https://daichan-blog.com/archives/3042
 - CSS - box-shadow
 - https://www.tohoho-web.com/css/prop/box-shadow.htm
-- これはダメ(そもそもwidth: 100%;にmargin-rightが付かないから)
+- これはダメ(そもそも width: 100%;に margin-right が付かないから)
 - https://www.nyamucoro.com/entry/2019/02/01/201231
 
 ## 更新履歴
 
+- 2022/3/8 リポジトリ名変更(css-box-shadow-001 -> c-boxShadow-001)
 - 2022/2/28 初版 作成完了
 
 ## 環境・使い方
@@ -41,10 +44,12 @@
 - 「 npx gulp 」とコマンドを入力すると動き出します
 
 ## 仕様
-- 
-- 
+
+-
+-
 
 ## 備考
+
 - スマホファースト
-- rem記述
-- ルートフォントをvwで設定していることからPCサイズのレイアウトをタブレットで表示させることが出来ます（remで書いた場合のみ）。
+- rem 記述
+- ルートフォントを vw で設定していることから PC サイズのレイアウトをタブレットで表示させることが出来ます（rem で書いた場合のみ）。
